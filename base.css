@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* CSS3 盒子模型 */
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'iconfont';  /* project id 1746803 */
+    src: url('//at.alicdn.com/t/font_1746803_3yfm4kzx665.eot');
+    src: url('//at.alicdn.com/t/font_1746803_3yfm4kzx665.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1746803_3yfm4kzx665.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1746803_3yfm4kzx665.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1746803_3yfm4kzx665.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1746803_3yfm4kzx665.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #666;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+a:hover {
+    color: #c81623;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+li,
+ol {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+button {
+    cursor: pointer;
+}
+
+button,input {
+    font-family:Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+    border: 0;
+    outline: none;
+}
+
+body {
+    -webkit-font-smoothing:antialiased;
+    background-color:#fff;
+    font:12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+    color:#666;
+}
+
+.clearfix:after {
+    display:block;
+    visibility:hidden;
+    clear:both;
+    content:"";
+    height:0;
+}
+
+.clearfix {
+    *zoom:1;
+}

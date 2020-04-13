@@ -1,0 +1,310 @@
+/* main模块 */
+.main {
+    height: 455px;
+    margin-top: 10px;
+    padding-left: 210px;
+}
+
+.main .focus {
+    position: relative;
+    width: 721px;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.main .focus button {
+    position: absolute;
+    display: block;
+    top: 50%;
+    margin-top: -18px;
+    width: 25px;
+    height: 35px;
+    background-color: rgba(255,255,255,.4);
+}
+
+.main .focus button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.main .focus .prev {
+    left: 0;
+    border-radius: 0 18px 18px 0;
+}
+
+.main .focus .prev i {
+    margin-left: -5px;
+}
+
+.main .focus .next {
+    right: 0;
+    border-radius: 18px 0 0 18px;
+}
+
+.main .focus .next i {
+    margin-right: -5px;
+}
+
+.main .focus .iconfont {
+    color: rgba(255,255,255,.8);
+}
+
+.main .focus .slider_indicators {
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+}
+
+.main .focus .slider_indicators li {
+    float: left;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 0 3px;
+    background-color: rgba(255,255,255,.4);
+    cursor: pointer;
+}
+
+.main .focus .slider_indicators .selected {
+    background-color: rgba(255,255,255,.8);
+}
+
+.main .newsflash {
+    width: 250px;
+    height: 100%;
+    background-color: #fff;
+}
+
+.main .newsflash .news {
+   height: 165px; 
+   /* background-color: pink; */
+}
+
+.main .newsflash .news .news_hd {
+    height: 34px;
+    padding: 0 10px;
+    border-bottom: 1px dotted #ccc;
+    line-height: 32px;
+}
+
+.main .newsflash .news .news_hd h4 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main .newsflash .news .news_hd a {
+    font-size: 12px;
+}
+
+.main .newsflash .news .news_bd {
+    padding: 10px 0 0 10px;
+}
+
+.main .newsflash .news .news_bd ul li{
+    height: 23px;
+}
+
+.main .newsflash .lifeservice {
+    height: 208px;
+    /* background-color: purple; */
+    /* border-top: 1px solid #ccc; */
+    /* border-bottom: 1px solid #ccc; */
+}
+
+.main .newsflash .lifeservice li {
+    float: left;
+    width: 62px;
+    height: 69px;
+}
+
+.main .newsflash .lifeservice li a {
+    display: block;
+    height: 100%;
+}
+
+.main .newsflash .lifeservice li a i {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 10px auto;
+}
+
+.main .newsflash .lifeservice li:nth-child(1) i{
+    background: url(../images/icons.png) no-repeat -16px -16px;
+}
+
+.main .newsflash .lifeservice li:nth-child(2) i{
+    background: url(../images/icons.png) no-repeat -79px -18px;
+}
+
+.main .newsflash .lifeservice li:nth-child(3) i{
+    background: url(../images/icons.png) no-repeat -142px -18px;
+}
+
+.main .newsflash .lifeservice li:nth-child(4) i{
+    background: url(../images/icons.png) no-repeat -206px -16px;
+}
+
+.main .newsflash .lifeservice li:nth-child(5) i{
+    background: url(../images/icons.png) no-repeat -16px -16px;
+}
+
+.main .newsflash .lifeservice li:nth-child(6) i{
+    background: url(../images/icons.png) no-repeat -16px -16px;
+}
+
+.main .newsflash .lifeservice li:nth-child(7) i{
+    background: url(../images/icons.png) no-repeat -16px -16px;
+}
+
+.main .newsflash .lifeservice li:nth-child(8) i{
+    background: url(../images/icons.png) no-repeat -16px -16px;
+}
+
+.main .newsflash .lifeservice li:nth-child(9) i{
+    background: url(../images/icons.png) no-repeat -16px -16px;
+}
+
+.main .newsflash .lifeservice li:nth-child(10) i{
+    background: url(../images/icons.png) no-repeat -16px -16px;
+}
+
+.main .newsflash .lifeservice li:nth-child(11) i{
+    background: url(../images/icons.png) no-repeat -16px -16px;
+}
+
+.main .newsflash .lifeservice li:nth-child(12) i{
+    background: url(../images/icons.png) no-repeat -16px -16px;
+}
+
+.main .newsflash .lifeservice li a p {
+    text-align: center;
+}
+
+.main .newsflash .bargain {
+    margin-top: 7px;
+}
+
+/* 今日推荐模块 */
+.recom {
+    height: 163px;
+    margin-top: 10px;
+    background-color: #ebebeb;
+}
+
+.recom .recom_hd {
+    width: 200px;
+    height: 100%;
+    text-align: center;
+    padding-top: 37px;
+    background-color: #5c5251;
+}
+
+.recom .recom_hd img {
+    margin: 0 auto;
+}
+
+.recom .recom_bd ul li {
+    position: relative;
+    float: left;
+    width: 249px;
+    height: 163px;
+    /* margin-top: 10px; */
+    /* border-right: 1px solid #ccc; */
+}
+
+.recom .recom_bd ul li:nth-child(-n+3)::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 1px;
+    height: 145px;
+    background-color: #ccc;
+}
+
+.recom .recom_bd ul li a {
+    display: block;
+    height: 163px;
+}
+
+.recom .recom_bd ul li a img {
+    padding-top: 10px;
+    width: 248px;
+    height: 163px;
+}
+
+/* 楼层区模块 */
+.floor .w{
+    margin-top: 30px;
+}
+
+.floor .box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.floor .box_hd h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #c81623;
+}
+
+.floor .box_hd .tab_list {
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+.floor .box_hd .tab_list ul li {
+    float: left;
+}
+
+.floor .box_hd .tab_list ul span {
+    margin: 015px;
+}
+
+.floor .box_bd {
+    height: 361px;
+}
+
+.floor .box_bd .tab_content .tab_list_item>div {
+    float: left;
+    height: 361px;
+    background-color: #fbfbfb;
+}
+
+.floor .box_bd .tab_content .tab_list_item .col_210 {
+    width: 210px;
+    text-align: center;
+}
+
+.floor .box_bd .tab_content .tab_list_item .col_219 {
+    width: 219px;
+}
+
+.floor .box_bd .tab_content .tab_list_item .col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+
+.floor .box_bd .tab_content .tab_list_item .col_329 {
+    width: 329px;
+}
+
+.floor .box_bd .tab_content .tab_list_item .col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 33px;
+    border-bottom: 1px solid #ccc;
+}
+
+.floor .box_bd .tab_content .tab_list_item .col_210 img {
+    padding-top: 10px;
+}
+
+.bb {
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
